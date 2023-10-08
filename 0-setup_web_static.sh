@@ -20,4 +20,3 @@ else
         sudo service nginx start
 fi
 echo "done!!!"
-
