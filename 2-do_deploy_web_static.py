@@ -6,7 +6,7 @@ from fabric.api import *
 import os
 
 
-env.hosts = ['34.224.16.178', '54.174.245.13']
+env.hosts = ['54.209.190.224', '54.198.37.27']
 env.key_filename = '~/.ssh/school'
 env.user = 'ubuntu'
 
@@ -54,4 +54,3 @@ def do_deploy(archieve_path):
     else:
         print("New version deployed!")
         return True
-
